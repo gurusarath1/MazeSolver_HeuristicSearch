@@ -6,5 +6,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/guru-sarath-t-4ab648131/">
+    <img src="https://github.com/gurusarath1/MazeSolver_HeuristicSearch/blob/master/GitHubPic_Maze.png" alt="Guru Sarath T Maze Solver">
+  </a>
+</p>
+
+
 Python 3.7.0b5
 Solves any given maze (as a maze file)

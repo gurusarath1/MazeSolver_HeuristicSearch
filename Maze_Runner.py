@@ -260,6 +260,7 @@ try:
 			maze.append(lineX)
 except:
 	print("Some issue with Maze.txt file\nEnsure (Maze.txt) the file is present and readable")
+	input('Press Enter')
 
 # Run the path finding algorithm only if the maze file is proper
 if len(maze) != 0 and maze_file and regular_maze:
@@ -374,3 +375,12 @@ if len(maze) != 0 and maze_file and regular_maze:
 
 		else:
 			print('No path Found - ' + str(Number_Of_iterations))
+			input('Press enter')
+	else:
+		print('Start and Goal location not indicated in the maze !!')
+		print('Start location is indicated using \'S\' character and Goal location is indicated using \'G\' character')
+		print('Open your maze file and make sure a \'S\' and a \'G\' character is present')
+		input('Press enter')
+else:
+	print('Empty maze file !!')
+	input('Press enter')
